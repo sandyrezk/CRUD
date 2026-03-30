@@ -1,0 +1,40 @@
+#update{
+    display: none;
+}
+
+body{
+    background-color: #41464b;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+    letter-spacing: 2px;
+}
+
+
+/* textarea responsive */
+#productDesc{
+    width: 100%;
+    min-height: 160px;
+    max-height: 250px;
+    resize: vertical;
+}
+
+/* تحسين الشكل على الشاشات الصغيرة */
+@media (max-width: 768px){
+    body{
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .container{
+        padding: 15px !important;
+    }
+
+    #productDesc{
+        min-height: 100px;
+    }
+}
+
+.shadow{
+    box-shadow:  0 0.7rem 1rem rgba(0,0,0,.15) !important;
+}
